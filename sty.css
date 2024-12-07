@@ -1,0 +1,108 @@
+li{
+	float: left;
+	padding: 1%;
+	background-color: #1C1559;
+	color: white;
+	text-align: center;
+	width: 14%;
+	font-size: 20px;
+	top: 0;
+	
+	
+
+}
+
+
+li:hover
+{
+	background-color: #2D266A;
+	font-size: 23px;
+
+	
+
+}
+
+ul
+{
+   list-style: none;
+   display: block;
+   position: fixed;
+   width: 90%;
+   top: -2%;
+
+ 
+
+}
+img{
+	border-radius: 20%;
+	margin-left: 17%;
+
+}
+table
+{
+	
+	color: white;
+	margin-left: 5%;
+	padding: 1%;
+	border: 1px solid white;
+	border-radius: 5%;
+}
+td
+{
+	width: 30%;
+}
+#wh{
+	width: 90%;
+	margin-left: 5%;
+	background-color: #40826D;
+	height: 100%;
+	top: 0;
+
+   
+	
+}
+
+#passage{
+	
+	width: 50%;
+	color: white;
+	padding: 1%;
+	border: 1px solid white;
+	margin-right: 2%;
+	top: 1%;
+	float: right;
+	height: 100%;
+
+}
+
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  color: black;
+  text-align: center;
+  width: fit-content;
+   
+}
+
+#customers tr:nth-child(even){background-color: #FAF9F6;}
+#customers tr:nth-child(odd){background-color: #bfc9ca;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #008080 ;
+  color: white;
+  font-weight: bold;
+   
+}
